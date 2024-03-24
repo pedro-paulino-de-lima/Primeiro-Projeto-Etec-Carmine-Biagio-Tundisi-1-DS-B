@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu projeto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagens/enio.jpg">
+
+    <style>
+      .text-2
+      {
+        color: yellow;
+        background: turquoise;
+        width: 200px;
+      }
+    </style>
+</head>
+<body>
+  <img src="./imagens/coquette.png" class="coquette">
+  <h1>MEU PRIMEIRO PROJETO NA ETEC</h1>
+  <p>Aula inicial de PWI</p>
+  <p>Tags mais importantes</p>
+  <labeL>Como funciona o browser</labeL>
+  <br>
+  <img src="./imagens/enio.jpg">
+  <a href="https://www.brasilgameshow.com.br/ingressos/" target="_blank"><h2>Compre aqui o seu ingresso da BGS!</h2></a>
+  <a href="https://www.brasilgameshow.com.br/ingressos/" target="_blank"><img src="./imagens/bgs-logo.png" width="100px" height="100px"></a>
+  <br>
+  <fieldset>
+    <legend>Videos</legend>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQ__6IbDiPY?si=X5NVL94wnAlfETT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5QdDIedxBXg?si=ok0SDpT5Y-I0qH9Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4Ta_6fZEq_Y?si=l4Gy4aZZ6O4WcG8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nzO-vXdlijI?si=_mWsiqibjoKDoRzl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </fieldset>
+  <br>
+  <a href="https://pt.org.br/tag/site/"><input type="submit" value="Clique aqui para ir para o site do PT"></a>
+  <br>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+  <br>
+  <ol>
+    <li>A</li>
+  </ol>
+  <hr>
+  <h2 class="table">Tabela</h2>
+  <table border="1">
+    <tr>
+      <td>Nome</td>
+      <td>E-mail</td>
+    </tr>
+    <tr>
+      <td>Pedro Henrique Carmo Paulino de Lima</td>
+      <td>carmopaulinodelima@gmail.com</td>
+    </tr>
+  </table>
+  <hr>
+  <h2>Cadastro</h2>
+  <form action="/" method="post">
+    <fieldset>
+      <legend><img src="./imagens/coquette.png" class="coquette_legend">Cadastro<img src="./imagens/coquette.png" class="coquette_legend"></legend>
+      Nome <input type="text" placeholder="Digite seu nome" required>
+      <br>
+      E-mail <input type="email" placeholder="Digite seu email" required>
+      <br>
+      Celular <input type="tel" placeholder="Digite o numero do seu telefone" required>
+      <br>
+      Data de Nascimento <input type="date" placeholder="Digite sua data de nascimento" required>
+      <br>
+      Senha <input type="password" placeholder="Digite sua senha" required>
+      <br>
+      <label>Idade</label>
+      <input type=number min="1" max="100" placeholder="Digite sua idade" required class="age"><br>
+      <label>Foto</label>
+      <input type="file">
+      <br>
+      <label>Observações</label>
+      <br>
+      <textarea rows="10" cols="50"></textarea>
+      <br>
+      <label>Selecione um carro</label>
+      <input list="carList">
+      <datalist id="carList">
+        <option>
+          Ford Mustang 2024
+        </option>
+        <option>
+          Jeep Compass 2023
+        </option>
+        <option>
+          Ford Fusion 2023
+        </option>
+        <option>
+          JAC T6 2017
+        </option>
+        <option>
+          Lamborghini Urus 2024
+        </option>
+        <option>
+          Fiat Fastaback 2024
+        </option>
+      </datalist>
+      <br>
+      <label>Confirma?</label><input type="checkbox" required>
+      <br>
+      <input type="submit" value="Enviar">
+    </fieldset>
+  </form>
+  <br>
+  <a href="./main.html" target="_blank">
+    <button>Localização</button>
+  </a>
+  <br>
+  <fieldset class="credits">
+    <legend class="credits-legend">Créditos</legend>
+    <p>Site feito por Pedro Henrique Carmo Paulino de Lima</p>
+    <p>Turma 1°DS-B</p>
+    <p>Etec Carmine Biagio Tundisi - Atibaia/SP</p>
+  </fieldset>
+  <hr>
+  <h2 style="fontFamily: Times New Roman;color: turquoise;background: red;width: 200px">Texto 1</h2>
+  <h2 class="text-2">Texto 2</h2>
+  <h2 class="text-3">Texto 3</h2>
+</body>
+</html>
